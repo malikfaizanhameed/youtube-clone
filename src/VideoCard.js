@@ -12,7 +12,7 @@ const VideoCard = ({
 }) => {
   return (
     <div className="videoCard">
-      <img clasName="videoCard__thumbnail" src={image} alt="" />
+      <img src={image} alt="" />
       <div className="videoCard__info">
         <Avatar
           className="videoCard__avatar"

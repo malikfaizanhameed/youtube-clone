@@ -1,10 +1,9 @@
 .videoCard {
   width: 270px;
-  height: 140px;
-  margin-bottom: 200px;
+  margin-bottom: 40px;
 }
 
-.videoCard__thumbnail {
+.videoCard > img {
   height: 140px;
   width: 250px;
 }
@@ -17,7 +16,7 @@
 
 .videoCard__text {
   margin-left: 15px;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 }
 
 .videoCard__text > h4 {
